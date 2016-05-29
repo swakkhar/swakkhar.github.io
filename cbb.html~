@@ -1,7 +1,7 @@
 <html>
 <body>
 
-<h1>CSI 211: Object Oriented Programming</h1>
+<h1>CSE 6153: Computational Biology and Bioinformatics</h1>
 
 <p><b>Summer 2016</b></p>
 
@@ -12,6 +12,8 @@ Department of CSE, United International University <br>
 Room: 104 Email: swakkhar@cse.uiu.ac.bd Phone: 01776195310<br>
 <p>
 <b>Class Time</b><br>
+Friday, 3:30PM - 6:30 PM
+<br>
 
 <p><b>Books</b><br>
 1. Java: The Complete Reference, Herbert Schildt, 9th Edition
@@ -21,7 +23,7 @@ Room: 104 Email: swakkhar@cse.uiu.ac.bd Phone: 01776195310<br>
 
 
 <p><b>Theory Course Schedule</b> <br>
-Week 1: Introduction to Java Language <a href="https://www.dropbox.com/s/ijahi3ye5jjrkfn/lecture01.pdf?dl=0">slides</a><br>
+Week 1: Introduction: String Matching <br>
 Week 2: Classes and Objects<br>
 Week 3: More on OOP<br>
 Week 4: Inheritence <br>
