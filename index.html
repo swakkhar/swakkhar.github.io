@@ -1,55 +1,259 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>Swakkhar Shatabda</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Professor Name</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Georgia, serif;
+      line-height: 1.7;
+      background-color: #f8f9fa;
+      color: #222;
+    }
+
+    header {
+      background-color: #1f2937;
+      color: white;
+      padding: 60px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 42px;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 18px;
+      color: #d1d5db;
+    }
+
+    nav {
+      margin-top: 25px;
+    }
+
+    nav a {
+      color: #e5e7eb;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 16px;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .container {
+      max-width: 950px;
+      margin: auto;
+      padding: 40px 20px;
+      background: white;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    h2 {
+      border-bottom: 2px solid #e5e7eb;
+      padding-bottom: 10px;
+      margin-bottom: 20px;
+      color: #111827;
+    }
+
+    .paper, .news, .student {
+      margin-bottom: 20px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      background: #1f2937;
+      color: #d1d5db;
+    }
+
+    a {
+      color: #2563eb;
+    }
+
+    .profile {
+      display: flex;
+      gap: 30px;
+      align-items: center;
+      flex-wrap: wrap;
+    }
+
+    .profile img {
+      width: 180px;
+      border-radius: 8px;
+    }
+
+    .profile-text {
+      flex: 1;
+      min-width: 250px;
+    }
+
+    @media (max-width: 700px) {
+      header h1 {
+        font-size: 32px;
+      }
+
+      nav a {
+        display: inline-block;
+        margin: 8px;
+      }
+    }
+  </style>
 </head>
+
 <body>
 
+  <header>
+    <h1>Professor Your Name</h1>
+    <p>
+      Department of Computer Science and Engineering <br>
+      Your University
+    </p>
 
- <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUz6Q_W74AZaWqULKbd9fTySM7NJNvtc4uK68dopXmEOU2KsYBud5EDNv-1dWDPN8f-kU&usqp=CAU" height="200"></img><br>
-  
- Swakkhar Shatabda<br>
- Professor<br>
- Department of Computer Science and Engineering<br>
-BRAC University<br>
- Email: sshatabda@gmail.com
-<hr class="solid">
-<h3>Education</h3>
-PhD, Griffith University<br>
-BSc, Bangladesh University of Engineering and Technology
+    <nav>
+      <a href="#about">About</a>
+      <a href="#research">Research</a>
+      <a href="#publications">Publications</a>
+      <a href="#students">Students</a>
+      <a href="#teaching">Teaching</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<h3>Research Interests</h3>
-Computational Biology, AI Search and Metaheuristics, Machine Intelligence
+  <div class="container">
 
-<hr class="solid">
-<h3>Publications</h3>
-<h4>Journal Articles</h4>
-<ol>
-	<li>Will be updated soon.</li>
-	</ol>
-<h4>Peer Reviewed Conference Papers</h4>
-<ol>
-	
-	<li>Will be updated soon.</li>
+    <section id="about">
+      <h2>About</h2>
 
+      <div class="profile">
 
-	</ol>
-<hr class="solid">
-<h3>A few Project Ideas</h3>
-<ol>
-  <li>Using Denoising Diffusion Probability Models for Generating Synthetic Data</li>
-  <li>Using Conference Paper Submission Data to Generate Meta-Review and Decision</li>
-  <li>Handling data imbalance in regression problems</li>
- </ol>
+        <!-- Replace with your image -->
+        <img src="profile.jpg" alt="Professor Photo">
 
-<h3>Talks and Seminars</h3>
-<ol>
-   <li> "Artificial Intelligence and Blockchain for Information Scrutiny and Authenticity", 5th Blockchain Olympiad Bangladesh, September 2024, BCOLBD </li>
-  <li> "Artificial Intelligence for Multimodal Medical Data Analytics", 1st South-East Asian Regional Non-Communicable Diseases Conference, August 2024, South-East Asian NCD Alliance. </li>
-  <li>"Harvesting Innovation: How AI is Reshaping Agro-Food Operations", Workshop on Postharvest Processing Technology for Food and Nutritional Security, May 2024, Bangladesh Agricultural Research Council (BARC)</li>
- </ol>
+        <div class="profile-text">
+          <p>
+            I am a Professor in the Department of Computer Science and Engineering at
+            Your University. My research interests include Artificial Intelligence,
+            Machine Learning, Bioinformatics, Multimodal Learning, and Computational Biology.
+          </p>
 
-  
- 
+          <p>
+            I am interested in building reliable and explainable AI systems for
+            healthcare, genomics, and education.
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="research">
+      <h2>Research Interests</h2>
+
+      <ul>
+        <li>Artificial Intelligence and Machine Learning</li>
+        <li>Computational Biology and Bioinformatics</li>
+        <li>Multimodal Large Language Models</li>
+        <li>Medical Image Analysis</li>
+        <li>Explainable and Trustworthy AI</li>
+      </ul>
+    </section>
+
+    <section id="publications">
+      <h2>Selected Publications</h2>
+
+      <div class="paper">
+        <strong>Paper Title 1</strong><br>
+        Conference/Journal Name, 2026
+      </div>
+
+      <div class="paper">
+        <strong>Paper Title 2</strong><br>
+        Conference/Journal Name, 2025
+      </div>
+
+      <div class="paper">
+        <strong>Paper Title 3</strong><br>
+        Conference/Journal Name, 2024
+      </div>
+
+      <p>
+        <a href="https://scholar.google.com">
+          Google Scholar Profile
+        </a>
+      </p>
+    </section>
+
+    <section id="students">
+      <h2>Students & Collaboration</h2>
+
+      <div class="student">
+        <strong>PhD Students</strong>
+        <p>Student Name — Research Topic</p>
+      </div>
+
+      <div class="student">
+        <strong>Research Assistants</strong>
+        <p>Student Name — AI and Bioinformatics</p>
+      </div>
+
+      <p>
+        I am open to collaborations in AI, healthcare, genomics,
+        and interdisciplinary machine learning research.
+      </p>
+    </section>
+
+    <section id="teaching">
+      <h2>Teaching</h2>
+
+      <ul>
+        <li>Machine Learning</li>
+        <li>Artificial Intelligence</li>
+        <li>Bioinformatics Algorithms</li>
+        <li>Data Structures and Algorithms</li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+
+      <p>
+        Email:
+        <a href="mailto:your.email@university.edu">
+          your.email@university.edu
+        </a>
+      </p>
+
+      <p>
+        GitHub:
+        <a href="https://github.com/yourusername">
+          github.com/yourusername
+        </a>
+      </p>
+
+      <p>
+        Google Scholar:
+        <a href="https://scholar.google.com">
+          scholar profile
+        </a>
+      </p>
+    </section>
+
+  </div>
+
+  <footer>
+    <p>
+      © 2026 Professor Your Name — Academic Website
+    </p>
+  </footer>
+
 </body>
-</html> 
-
+</html>
